@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+}
+
+p {
+	background-color: #80ced6;
+	padding: 10px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/stretching-cat-1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../images/stretching-cat-1.jpg');
+
+    /* half height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.DIYList {
+	display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+	color: black;
+}
+
+.secHeader {
+	background-color: #80ced6;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.secBack {
+	background-color: #618685;
+	padding-bottom: 15px;
+}
+
+.secBody {
+	background-color: #80ced6;
+	font-size: 17px;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.active {
+    background-color: #f7786b;
+}
+
+.homeImage {
+	/* The image used */
+    background-image: url('../images/bullst.jpg');
+	
+	 /* Full height */
+    height: 170px;
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+	background-color: #618685;
+}
+
+.aboutImage {
+	/* The image used */
+    background-image: url('../images/yoga bunny.jpg');
+	
+	 /* Full height */
+    height: 300px;
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+	background-color: #618685;
+}
+
+.classImage {
+	/* The image used */
+    background-image: url('../images/catHome.jpg');
+	
+	 /* Full height */
+    height: 250px;
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+	background-color: #618685;
+}
+
+.DIYImage {
+	/* The image used */
+    background-image: url('../images/turtlest.jpg');
+	
+	 /* Full height */
+    height: 250px;
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+	background-color: #618685;
+}
+
+nav div.container-fluid {
+	background-color: #32909a;
+}
